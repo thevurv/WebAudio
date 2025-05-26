@@ -329,6 +329,11 @@ function updateObject(id, modify_enum, handle_bass, inside_net)
 			self.parented = net.ReadBool()
 			if self.parented then
 				local ent = net.ReadEntity()
+				if not IsValid(ent) then
+					-- incredibly rare edge case that was never even reproduced, but w/e
+					return
+				end
+
 				self.parent = ent
 				if self.pos ~= nil then
 					-- We've initialized and received a changed position before
