@@ -1,4 +1,4 @@
-# WebAudio [![Release Shield](https://img.shields.io/github/v/release/Vurv78/WebAudio)](https://github.com/Vurv78/WebAudio/releases/latest) [![License](https://img.shields.io/github/license/Vurv78/WebAudio?color=red)](https://opensource.org/licenses/MIT) [![Linter Badge](https://github.com/Vurv78/WebAudio/workflows/Linter/badge.svg)](https://github.com/Vurv78/WebAudio/actions) [![github/Vurv78](https://img.shields.io/discord/824727565948157963?label=Discord&logo=discord&logoColor=ffffff&labelColor=7289DA&color=2c2f33)](https://discord.gg/yXKMt2XUXm) [![Workshop Subscribers](https://img.shields.io/steam/subscriptions/2466875474?color=yellow&logo=steam)](https://steamcommunity.com/sharedfiles/filedetails/?id=2466875474)
+# WebAudio [![Release Shield](https://img.shields.io/github/v/release/thevurv/WebAudio)](https://github.com/thevurv/WebAudio/releases/latest) [![License](https://img.shields.io/github/license/thevurv/WebAudio?color=red)](https://opensource.org/licenses/MIT) [![Linter Badge](https://github.com/thevurv/WebAudio/workflows/Linter/badge.svg)](https://github.com/thevurv/WebAudio/actions) [![github/thevurv](https://img.shields.io/discord/824727565948157963?label=Discord&logo=discord&logoColor=ffffff&labelColor=7289DA&color=2c2f33)](https://discord.gg/yXKMt2XUXm) [![Workshop Subscribers](https://img.shields.io/steam/subscriptions/2466875474?color=yellow&logo=steam)](https://steamcommunity.com/sharedfiles/filedetails/?id=2466875474)
 
 
 This is an addon for garrysmod that adds a serverside ``WebAudio`` class which can be used to interact with clientside IGmodAudioChannels asynchronously.  
@@ -7,7 +7,7 @@ It also adds an extension for Expression2 to interact with these in a safe manne
 You can consider this as a safe and more robust replacement for the popular Streamcore addon, and I advise you to replace it for the safety of your server and its population.
 ``Documentation`` can be found at the bottom of this file
 
-To convert your Streamcore contraptions to *WebAudio*, see [from Streamcore to WebAudio](https://github.com/Vurv78/WebAudio/wiki/From-StreamCore-To-WebAudio)
+To convert your Streamcore contraptions to *WebAudio*, see [from Streamcore to WebAudio](https://github.com/thevurv/WebAudio/wiki/From-StreamCore-To-WebAudio)
 
 ## Features
 * Client and Serverside Whitelists, both are customizable with simple patterns or more advanced lua patterns.  
